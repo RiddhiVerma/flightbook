@@ -40,8 +40,8 @@ function _getFlightsTest() {
 function _getFlights(o) {
 	const date = new Date(o.date);
 	const cabin = (o.fclass === 'economy')? 
-									'COACH' : (o.fclass === 'bussiness')? 
-									'BUSSINESS' : 'FIRST';
+	'COACH' : (o.fclass === 'bussiness')? 
+	'BUSSINESS' : 'FIRST';
 	const reqBody = {
 		request: {
 			slice: [

@@ -7,8 +7,8 @@
     "start": "webpack-dev-server --open",
     "build": "webpack"
   },
-  "author": "emoreno911",
-  "license": "ISC",
+  "author": "ridz",
+  "license": "",
   "babel": {
     "presets": [
       "env",
